@@ -1,0 +1,46 @@
+$headerColor: red;
+
+.header {
+    color: $headerColor;
+}
+
+$borderStyle: 3px solid orange;
+$backgroundColor: blue;
+$thePadding: 15px;
+$textAlign: center;
+$theMargin: 20px;
+
+.sub-topic {
+    border: $borderStyle;
+    background-color: $backgroundColor;
+    padding: $thePadding;
+    text-align: $textAlign;
+    margin: $theMargin;
+}
+
+$theColor: orange;
+
+.first {
+    $theColor: violet;
+    color: $theColor;
+}
+
+.second {
+    color: $theColor;
+}
+
+$textColor: green;
+$theFloat: left;
+
+.third {
+    $textColor: yellow !global;
+    color: $textColor;
+    float: $theFloat;
+}
+
+$otherFloat: inline-end;
+
+.fourth {
+    color: $textColor;
+    float: $otherFloat;
+}
